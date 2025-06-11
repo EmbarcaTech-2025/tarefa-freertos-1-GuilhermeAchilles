@@ -105,6 +105,8 @@ target_link_libraries(Atividade_1_free_rtos
    ```
 
 
+### Video da tarefa em funcionamento 
+https://www.youtube.com/shorts/y4WeQf1E2f0
 ---
 
 ## 📜 Licença
