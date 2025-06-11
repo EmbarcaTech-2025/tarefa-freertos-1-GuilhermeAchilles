@@ -1,18 +1,25 @@
 
 # Tarefa: Roteiro de FreeRTOS #1 - EmbarcaTech 2025
 
-Autor: **Insira Seu Nome**
+Autor: **Guilherme Achilles de Oliveira e Aguiar**
 
 Curso: Residência Tecnológica em Sistemas Embarcados
 
 Instituição: EmbarcaTech - HBr
 
-Campinas, ___ de 2025
+Brasília, 10/06 de 2025
 
 ---
 
-<!-- INSIRA O CONTEÚDO DO SEU README AQUI! -->
+### Inserindo o Free Rtos
 
+    Para conseguir colocar o microKernel FreeRtos no projeto, foi feito o clone do arquivo diretamente do github e colocado uma cópia dele na pasta do projeto.
+
+    Logo apos esse passo no cmake foi colocado os seguintes codigos:
+
+    
+    
+    
 ---
 
 ## 📜 Licença
