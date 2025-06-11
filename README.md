@@ -13,9 +13,9 @@ Brasília, 10/06 de 2025
 
 ### Inserindo o Free Rtos
 
-    Para conseguir colocar o microKernel FreeRtos no projeto, foi feito o clone do arquivo diretamente do github e colocado uma cópia dele na pasta do projeto.
+Para conseguir colocar o microKernel FreeRtos no projeto, foi feito o clone do arquivo diretamente do github e colocado uma cópia dele na pasta do projeto.
 
-    Logo apos esse passo no cmake foi colocado os seguintes codigos:
+Logo apos esse passo no cmake foi colocado os seguintes codigos:
 
     
     
