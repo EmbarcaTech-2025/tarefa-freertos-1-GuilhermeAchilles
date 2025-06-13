@@ -104,6 +104,14 @@ target_link_libraries(Atividade_1_free_rtos
 
    ```
 
+### Reflexões
+
+- Se todas as tarefas tiverem a mesma prioridade, o kernel do FreeRtos vai fazer um round-roubin entre as tasks. Ela vão ainda ser feitas de forma "paralela", quando uma task for pausada, parte da outra vai começar a ser feita, até todas serem finalizadas.
+
+- Quem ocupa mais tempo de CPU é a verificação dos botões. Considerando todas as funções das tasks como simples, pois é verificar um estado de uma gpio ou colocar um estado nela, igualando esses termos, temos que a task do botão é executada mais vezes, ocupando uma porcentagem maior da cpu em todo periodo de tempo em que o microcontrolador esta ligado.
+
+-  A consequência disto, é que se você tem uma task, mais importante, que dependa da entrada do usuario, ela tem chance de não ser executada no momento em que deveria ser executada, pois sua prioridade é a mesma ou inferior a das outras tarefas. 
+
 
 ### Video da tarefa em funcionamento 
 https://www.youtube.com/shorts/y4WeQf1E2f0
